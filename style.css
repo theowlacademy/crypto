@@ -4,6 +4,7 @@
 body {
 	margin: 0;
 	font-family: 'SF-UI-Display', sans-serif;
+	overflow: hidden;
 }
 header {
 	text-align: center;
@@ -20,6 +21,7 @@ main {
 	height: 100vh;
 	place-items: center;
 	background-color: #e7e40f;
+	width: 100%;
 }
 button {
 	background-color: #e7e40f;
