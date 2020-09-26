@@ -23,7 +23,6 @@ main {
 	place-items: center;
 	background-color: #e7d10f;
 	width: 100%;
-	overflow: hidden;
 }
 button {
 	background-color: #e7e40f;
