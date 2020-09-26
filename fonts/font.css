@@ -1,0 +1,13 @@
+@font-face {
+	font-family: 'SF-UI-Display';
+	font-style: normal;
+	font-weight: bold;
+	src: local('SF-UI-Display'), url('SF-UI-Display-Bold.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'SF-UI-Display';
+	font-style: normal;
+	font-weight: normal;
+	src: local('SF-UI-Display'), url('SF-UI-Display-Regular.woff') format('woff');
+}

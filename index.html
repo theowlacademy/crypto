@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="assets/logo.svg" type="image/x-icon">
+	<meta name="theme-color" content="#e7e40f">
+	<title>The Owl Academy - Playground</title>
+	<link rel="stylesheet" href="font.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<main>
+		<header>
+			<h1>Cryptography</h1>
+			<p>Playground for learners</p>
+		</header>
+		<section class="wrapper">
+			<section class="navi">
+				<ul>
+					<li class="selected">Encrypt</li>
+					<li>Decrypt</li>
+					<li>Hashing</li>
+				</ul>
+			</section>
+			<section class="work">
+				<form>
+					<!-- <div>
+						<label class="mainlabel">Method</label>
+						<input type="radio" id="skc" name="method" /> <label for="skc">Symmetric key</label>
+						<input type="radio" id="pk" name="method" /> <label for="pk">Public key</label>
+					</div> -->
+					<div>
+						<label class="mainlabel" for="plaintext">Plain Text</label>
+						<textarea id="plaintext" cols="10" rows="3" charswidth="23"></textarea>
+					</div>
+					<div>
+						<label class="mainlabel" for="key">Key</label>
+						<textarea id="key" cols="3" rows="1" charswidth="23"></textarea>
+						<input type="checkbox" id="gkey" /><label for="gkey">Generate key automatically</label>
+					</div>
+					<!-- <div>
+						<label class="mainlabel" for="algorithm">Algorithm</label>
+						<select name="algorithm" id="algorithm">
+							<option value="AES-CTR" selected>AES-CTR</option>
+							<option value="RSA-OAEP">RSA-OAEP</option>
+						</select>
+					</div> -->
+					<p id="error"></p>
+					<button type="button" id="submit">Encrypt</button>
+				</form>
+			</section>
+		</section>
+		<section class="result-wrapper hide">
+
+			<section id="result" class="wrapper">
+
+			</section>
+			<div class="popup wrapper hide">Copied</div>
+		</section>
+		<div>
+			<a href="https://www.facebook.com/theowlacademy">
+				<img src="assets/logo.svg" alt="The Owl Academy" width="70px">
+			</a>
+		</div>
+	</main>
+	<script src="aes.js"></script>
+	<script src="index.js"></script>
+</body>
+
+</html>
