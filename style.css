@@ -5,6 +5,7 @@ body {
 	margin: 0;
 	font-family: 'SF-UI-Display', sans-serif;
 	overflow: hidden;
+	background-color: #e7d10f;
 }
 header {
 	text-align: center;
@@ -20,8 +21,9 @@ main {
 	display: grid;
 	height: 100vh;
 	place-items: center;
-	background-color: #e7e40f;
+	background-color: #e7d10f;
 	width: 100%;
+	overflow: hidden;
 }
 button {
 	background-color: #e7e40f;
@@ -73,6 +75,8 @@ button:active{
 	font-size: 18px;
 	width: 100%;
 	resize: vertical;
+	border: 1px solid #333;
+	border-radius: 5px;
 }
 
 .work form div select {
